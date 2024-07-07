@@ -14,7 +14,7 @@
         <user-info :user="user" :statistics="statistics"></user-info>
         <el-row>
           <el-col :span="24">
-            <h3>我的商品</h3>
+            <h3>我的商品11</h3>  
             <el-button type="primary" @click="addProduct" style="margin-bottom: 20px;">添加新商品</el-button>
             <el-table :data="myProducts" style="width: 100%">
               <el-table-column prop="productName" label="商品名称"></el-table-column>
